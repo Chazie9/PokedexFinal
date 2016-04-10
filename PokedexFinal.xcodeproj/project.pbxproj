@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02FAAFE1CBAF64300F14048 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = D02FAAFD1CBAF64300F14048 /* pokemon.csv */; };
 		D088E72E1CB2E7F800EECDB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088E72D1CB2E7F800EECDB3 /* AppDelegate.swift */; };
 		D088E7301CB2E7F800EECDB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088E72F1CB2E7F800EECDB3 /* ViewController.swift */; };
 		D088E7331CB2E7F800EECDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D088E7311CB2E7F800EECDB3 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D02FAAFD1CBAF64300F14048 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		D088E72A1CB2E7F800EECDB3 /* PokedexFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokedexFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D088E72D1CB2E7F800EECDB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D088E72F1CB2E7F800EECDB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				D088E72D1CB2E7F800EECDB3 /* AppDelegate.swift */,
 				D088E72F1CB2E7F800EECDB3 /* ViewController.swift */,
+				D02FAAFD1CBAF64300F14048 /* pokemon.csv */,
 				D088E7311CB2E7F800EECDB3 /* Main.storyboard */,
 				D088E7341CB2E7F800EECDB3 /* Assets.xcassets */,
 				D088E7361CB2E7F800EECDB3 /* LaunchScreen.storyboard */,
@@ -179,6 +182,7 @@
 			files = (
 				D088E7381CB2E7F800EECDB3 /* LaunchScreen.storyboard in Resources */,
 				D088E7351CB2E7F800EECDB3 /* Assets.xcassets in Resources */,
+				D02FAAFE1CBAF64300F14048 /* pokemon.csv in Resources */,
 				D088E7331CB2E7F800EECDB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +392,7 @@
 				D088E7491CB2E7F800EECDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D088E74A1CB2E7F800EECDB3 /* Build configuration list for PBXNativeTarget "PokedexFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				D088E74C1CB2E7F800EECDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
